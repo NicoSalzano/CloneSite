@@ -1,0 +1,158 @@
+:root{
+    --purple:#7453fc;
+    --white:#fff;
+    --black:#2a2a2a;
+
+}
+
+
+
+.bgc{
+    background-color: var(--purple);
+}
+.bgc-white{
+    background-color: #fff;
+}
+
+.pc-purple{
+    color: var(--purple);
+}
+
+.pc-white{
+    color: var(--white);
+}
+
+.pc.black{
+    color: #2a2a2a;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+  /* HEADER STYLE */
+
+.header-area{
+    background-color: transparent;
+    position: absolute;
+    height: 70px;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.navbar{
+    border-radius: 50px;
+    
+}
+
+.nav-link{
+    color: #2a2a2a !important;
+    background-color: transparent;
+    border-radius: 20px;
+    
+    
+}
+
+
+.nav-item :hover{
+    color: #fff !important;
+    background-color: #7453fc;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+/* modificare toggle collpase */
+
+
+/* MAIN STYLE */
+
+.main-banner{
+    background-image: url(./media/banner-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 240px;
+    background-color: #2a2a2a;
+    width: 100%;
+}
+
+.title{
+    
+}
+
+.border-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.main-title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+
+.main-p{
+    font-size: 20px;
+    line-height: 30px;
+    /* margin-top: 20px; */
+    
+}
+
+.buttons{
+
+}
+/* CONTROLLARE HOVER BOTTONI */
+.border-button{
+    color: #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: 1px solid #7453fc;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+.main-button{
+    color: #fff !important;
+    background-color: #7453fc;
+    border-radius: 20px;
+    padding: 12px 30px;
+    display: inline-block;
+
+}
+
+/* CONTROLLARE HOVER BOTTONI FINE  */
+.main-foto{
+    
+    display: flex;
+    height: 310px;
+    width: 100%;
+}
+
+@media  screen and (min-width:760px) {
+
+    .main-foto{
+        /* margin-left: 50px; */
+        justify-content: center;
+        display: flex;
+        height: 430px;
+        width: 100%;
+        padding-left: 10%;
+    }
+}
