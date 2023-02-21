@@ -1,100 +1,269 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://kit.fontawesome.com/497d6018c2.css" crossorigin="anonymous">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
-    <title>NFT Clone</title>
-  </head>
-  <body>
-    <!-- NAVBAR SECTION -->
-    <header class="header-sticky header-area mt-4">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://kit.fontawesome.com/497d6018c2.css" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
+  <!-- Swiper JS -->
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>NFT Clone</title>
+</head>
+<body>
+  <!-- NAVBAR SECTION -->
+  <header class="header-sticky header-area mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark  py-4 align-items-center bgc-white" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand px-2" href="#">
+                <img src="./media/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon pc-purple"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav ms-auto mb-2 fs-5">
+                  <li class="nav-item ">
+                    <a class="nav-link  px-3" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Explore</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="">Item Details</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="">Author</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="">Create Yours</a>
+                  </li>                              
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- END NAVBAR SECTION -->
+  <!-- MAIN SECTION  -->
+  <section  class="main-banner">
+    <div class="container pc-white">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="title  py-5">
+            <h6 class="border-title">
+              Liberty NFT Market
+            </h6>
+            <h2 class="main-title ">
+              CREATE, SELL & COLLECT TOP NFT’S.
+            </h2>
+            <p class="main-p ">
+              Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded from TemplateMo's free css templates.
+            </p>
+            <div class="buttons d-flex ">
+              <!-- <div class=""> -->
+                <a href="" class="border-button">Explore top NFTs</a>
+                <!-- </div> -->
+                <!-- <div class=""> -->
+                  <a href="" class="main-button">Watch Our Videos</a>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="main-foto">
+                <img src="./media/banner-01.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--END MAIN SECTION   -->
+      <!-- SECTION CATEGORIES COLLECTION  -->
+      <section class="categories-collection">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-dark  py-4 align-items-center bgc-white" aria-label="Fourth navbar example">
-                        <div class="container-fluid">
-                          <a class="navbar-brand px-2" href="#">
-                            <img src="./media/logo.png" alt="">
-                          </a>
-                          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon pc-purple"></span>
-                          </button>
-                    
-                          <div class="collapse navbar-collapse" id="navbarsExample04">
-                            <ul class="navbar-nav ms-auto mb-2 fs-5">
-                              <li class="nav-item ">
-                                <a class="nav-link  px-3" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Explore</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link px-3" href="">Item Details</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link px-3" href="">Author</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link px-3" href="">Create Yours</a>
-                              </li>                              
-                            </ul>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="line-section"></div>
+              <h2 class="title-categories text-center ">
+                Browse Through Our <em> Categories </em> Here
+              </h2>
+            </div>
+            <div class="col-lg-2 col-sm-6 ">
+              <div class="card-categories">
+                <div class="icon">
+                  <img src="./media/block.png" alt="">
+                </div>
+                <h4 class="card-title ">
+                  Blockchain
+                </h4>
+                <div class="icon-button">
+                  <a href=""><i class="fa fa-angle-right "></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="card-categories">
+                <div class="icon">
+                  <img src="./media/digital.png" alt="">
+                </div>
+                <h4 class="card-title">
+                  Digital Art
+                </h4>
+                <div class="icon-button">
+                  <a href=""><i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="card-categories">
+                <div class="icon">
+                  <img src="./media/music.png" alt="">
+                </div>
+                <h4 class="card-title">
+                  Music Art
+                </h4>
+                <div class="icon-button">
+                  <a href=""><i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="card-categories">
+                <div class="icon">
+                  <img src="./media/virtual.png" alt="">
+                </div>
+                <h4 class="card-title">
+                  Virtual World
+                </h4>
+                <div class="icon-button">
+                  <a href=""><i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="card-categories">
+                <div class="icon">
+                  <img src="./media/valuable.png" alt="">
+                </div>
+                <h4 class="card-title">
+                  Valable NFTs
+                </h4>
+                <div class="icon-button">
+                  <a href=""><i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+              <div class="card-categories">
+                <div class="icon">
+                  <img src="./media/triple.png" alt="">
+                </div>
+                <h4 class="card-title">
+                  Triple NFT
+                </h4>
+                <div class="icon-button">
+                  <a href=""><i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- completare icon  -->
+        <div class="col-lg-12 ">
+          <div class="collection">
+            <div class="row me-0">
+              <div class="col-lg-12">
+                <div class="heading-collection mt-5">
+                  <div class="line-section"></div>
+                  <h2 class="collection-title text-center">
+                    Explore Some Hot <em>Collection</em> In Market
+                  </h2>
+                </div>
+              </div>
+              <div class="col-12 ">
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide py-5">
+                      <div class="card-collection">
+                        <img src="./media/collection-01.jpg" alt="" class="">
+                        <div class="card-down">
+                          <h4 class="">
+                            ciao sono la card-categor
+                          </h4>
+                          <p class="card-collection-item">Items In Collection</p>
+                          <p class="card-collection-categories">Category</p>
+                          <div class="collection-button">
+                            <a href="" class="pc-white">Explore the NFT</a>
                           </div>
                         </div>
-                      </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- END NAVBAR SECTION -->
-    <!-- MAIN SECTION  -->
-    <section  class="main-banner">
-        <div class="container pc-white">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="title  py-5">
-                        <h6 class="border-title">
-                            Liberty NFT Market
-                        </h6>
-                        <h2 class="main-title ">
-                            CREATE, SELL & COLLECT TOP NFT’S.
-                        </h2>
-                        <p class="main-p ">
-                            Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded from TemplateMo's free css templates.
-                        </p>
-                       <div class="buttons d-flex ">
-                        <!-- <div class=""> -->
-                                <a href="" class="border-button">Explore top NFTs</a>
-                        <!-- </div> -->
-                        <!-- <div class=""> -->
-                                <a href="" class="main-button">Watch Our Videos</a>
-                        <!-- </div> -->
-                       </div>
+                      </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="main-foto">
-                        <img src="./media/banner-01.png" alt="">
+                    <div class="swiper-slide py-5">
+                      <div class="card-collection">
+                        <img src="./media/collection-01.jpg" alt="" class="">
+                        <div class="card-down">
+                          <h4 class="">
+                            ciao sono la card-categor
+                          </h4>
+                          <p class="card-collection-item">Items In Collection</p>
+                          <p class="card-collection-categories">Category</p>
+                          <div class="collection-button">
+                            <a href="" class="pc-white">Explore the NFT</a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <div class="swiper-slide py-5">
+                      <div class="card-collection">
+                        <img src="./media/collection-01.jpg" alt="" class="">
+                        <div class="card-down">
+                          <h4 class="">
+                            ciao sono la card-categor
+                          </h4>
+                          <p class="card-collection-item">Items In Collection</p>
+                          <p class="card-collection-categories">Category</p>
+                          <div class="collection-button">
+                            <a href="" class="pc-white">Explore the NFT</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    ...
+                  </div>
+                  
+                  
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-  </body>
-</html>
+      </section>
+      
+      <!-- Swiper js -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <!-- personal js-->
+      <script src="./index.js"></script>
+    </body>
+    </html>

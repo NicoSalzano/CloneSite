@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 :root{
     --purple:#7453fc;
     --white:#fff;
@@ -31,7 +35,7 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 
@@ -156,3 +160,201 @@ a{
         padding-left: 10%;
     }
 }
+
+/* SECTION CATEGORIES COLLECTION */
+
+.categories-collection{
+    background-image: url(./media/dark-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 120px 0px 150px 0px;
+}
+.line-section{
+    width: 100px;
+    height: 2px;
+    background-color: #7453fc;
+    margin: 0 auto 30px auto;
+    
+    
+}
+
+.title-categories{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+em{
+    color: #7453fc;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.card-categories{
+    background-color: #282b2f;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #404245;
+    position: relative;
+    margin-top: 15px;
+}
+
+.icon{
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    text-align: center;
+    line-height: 62px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.card-title{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+    display: inline-block;
+    
+}
+
+/* .icon-button a{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #fff;
+    color: #7453fc;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    left: 50%;
+    bottom: -23px;
+    transform: translateX(-23px);
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+  } */
+  
+  /* .icon-button a:hover {
+    background-color: #7453fc;
+    color: #fff;
+    visibility: visible;
+    opacity: 1;
+  } */
+  
+  .collection{
+    margin-top: 80px;
+  }
+
+
+ .collection-title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    justify-content: center;
+ }
+
+/* CARD COLLECTION */
+
+ .card-collection{
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    display: block;
+    /* width: 100%; */
+}
+   
+
+ .card-collection img{
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+    width: 100%;
+ }
+
+ .card-down{
+    background-color: #282b2f;
+    border: 1px solid #404245;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    padding: 30px;
+    /* width: 100%; */
+   
+} 
+
+ .card-collection h4{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight:700 ;
+ }
+
+ .card-collection p{
+    display: inline-block;
+    width: 48%;
+    
+ }
+ 
+ .card-collection-item{
+    color:#fff ; 
+    font-size: 19px;
+    /* font-weight: 400;   */
+ }
+
+ .card-collection-categories{
+        color: #fff;
+        text-align: right;
+        font-size: 19px;
+        font-weight: 400;  
+ }
+
+ .collection-button{
+       width: 100%;
+       text-align: center;
+       font-size: 14px;
+       background-color: #7453fc;
+       border: 1px solid #7453fc;
+       padding: 12px 30px;
+       display: inline-block;
+       border-radius: 25px;
+       font-weight: 500;
+       text-transform: capitalize;
+       letter-spacing: 0.5px;
+       transition: all 0.3s;
+       position: relative;
+       overflow: hidden;
+       margin-top: 20px;
+       margin-bottom: -60px;
+    }
+ 
+
+.collection-button ::after{
+    width: 78%;
+    height: 2px;
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.swiper {
+    width: 80%;
+    height: 110%;
+  }
