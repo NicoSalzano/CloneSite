@@ -127,7 +127,15 @@ a{
     display: inline-block;
     margin-right: 15px;
 }
-
+ .border-button:hover{
+    color: #fff !important;
+    background-color: #7453fc;
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: 1px solid #7453fc;
+    display: inline-block;
+    margin-right: 15px;
+ }
 
 
 
@@ -138,6 +146,17 @@ a{
     padding: 12px 30px;
     display: inline-block;
 
+}
+
+.main-button:hover{
+    
+        color: #7453fc!important;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 12px 30px;
+        display: inline-block;
+    
+    
 }
 
 /* CONTROLLARE HOVER BOTTONI FINE  */
@@ -378,5 +397,74 @@ em{
     width: 46px;
     height: 46px;
     /* display: inline-block; */
-    right: 15px;
+    right: 0px;
+}
+
+/* CREATE NFT SECTION */
+
+.create-nft{
+    background-image: url(./media/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px 0;
+    position: relative;
+}
+
+.line-section-create{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    
+}
+
+.create-title{
+    color: #fff;
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.create-button{
+    text-align: right;
+}
+
+.create-button a{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    background-color: #7453fc;
+    border: 1px solid #7453fc;
+    padding: 12px 60px;
+    /* display: inline-block; */
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    /* margin-top: 20px;
+    margin-bottom: -60px; */
+    color: #fff;
+}
+
+.create-button a::after{
+    width: 78%;
+    height: 2px;
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.create-button a:hover{
+    background-color: #fff;
+    color: #7453fc;
 }
