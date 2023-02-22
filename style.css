@@ -117,7 +117,7 @@ a{
 }
 
 
-/* CONTROLLARE HOVER BOTTONI */
+
 .border-button{
     color: #fff;
     background-color: transparent;
@@ -246,31 +246,7 @@ em{
     
 }
 
-/* .icon-button a{
-    display: inline-block;
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
-    background-color: #fff;
-    color: #7453fc;
-    border-radius: 50%;
-    font-size: 18px;
-    position: absolute;
-    left: 50%;
-    bottom: -23px;
-    transform: translateX(-23px);
-    transition: all .3s;
-    opacity: 0;
-    visibility: hidden;
-  } */
-  
-  /* .icon-button a:hover {
-    background-color: #7453fc;
-    color: #fff;
-    visibility: visible;
-    opacity: 1;
-  } */
-  
+
   .collection{
     margin-top: 80px;
   }
@@ -353,11 +329,12 @@ em{
        font-weight: 500;
        text-transform: capitalize;
        letter-spacing: 0.5px;
-       transition: all 0.3s;
+       /* transition: all 0.3s; */
        position: relative;
        overflow: hidden;
        margin-top: 20px;
        margin-bottom: -60px;
+       color: #fff;
     }
  
 
@@ -370,6 +347,10 @@ em{
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+}
+
+.collection-button a{
+    color: #fff;
 }
 
 .swiper {
@@ -467,4 +448,49 @@ em{
 .create-button a:hover{
     background-color: #fff;
     color: #7453fc;
+}
+
+.create-nft .item{
+    margin-top: 30px;
+    position: relative;
+}
+
+.number{
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    color: #fff;
+}
+
+.icon-create{
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    text-align: center;
+    line-height: 62px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.create-nft h4{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.create-nft p{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.item::after{
+    position: absolute;
+    width: 1px;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.2);
+    content: "";
+    right: 5px;
+    top: 5%;
 }
