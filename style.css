@@ -455,12 +455,7 @@ em{
     position: relative;
 }
 
-.number{
-    position: absolute;
-    right: 0px;
-    top: -20px;
-    color: #fff;
-}
+
 
 .icon-create{
     width: 62px;
@@ -484,7 +479,6 @@ em{
     margin-top: 0;
     margin-bottom: 1rem;
 }
-
 .item::after{
     position: absolute;
     width: 1px;
@@ -493,4 +487,44 @@ em{
     content: "";
     right: 5px;
     top: 5%;
+}
+
+.number{
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    color: #fff;
+}
+
+
+
+@media (max-width:992px) {
+
+   
+    
+    .create-title{
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .create-button{
+        text-align: center;
+        margin-top: 45px;
+
+    }    
+
+    .create-nft .item{
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .item::after{
+      display: none;
+    }
+   
+    
 }
