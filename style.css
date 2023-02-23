@@ -388,7 +388,7 @@ em{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 120px 0;
+    padding: 140px 0;
     position: relative;
 }
 
@@ -402,7 +402,7 @@ em{
 
 .create-title{
     color: #fff;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 36px;
     font-size: 40px;
     font-weight: 700;
@@ -471,7 +471,7 @@ em{
     color: #fff;
     font-size: 20px;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .create-nft p{
@@ -528,3 +528,72 @@ em{
    
     
 }
+
+/* MARKET SECTION */
+
+.market{
+    background-image: url(./media/dark-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    position: relative;
+}
+
+.line-section-market{
+    
+    width: 100px;
+    height: 3px;
+    background-color: #7453fc;
+    margin-bottom: 30px;
+
+}
+.market h2{
+    color: #fff;
+    font-size: 35px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.filters{
+    text-align: right;
+    
+}
+
+.filters li {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 15px;
+    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  
+}
+
+
+.filters  li.active,
+.filters  li:hover{
+    background-color: #7453fc;
+}
+
+.ciao{
+    position: relative;
+    height: 100;
+}
+
+.market-item{
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin-top:30px;
+}
+
