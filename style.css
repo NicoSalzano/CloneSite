@@ -77,7 +77,14 @@ a{
 }
 
 
-/* modificare toggle collpase */
+.navbar .navbar-toggler.collapsed{
+    color: #7453fc;
+    border: transparent;
+    transition: all 0.5s;
+    
+}
+
+
 
 
 /* MAIN STYLE */
@@ -584,10 +591,6 @@ em{
     background-color: #7453fc;
 }
 
-.ciao{
-    position: relative;
-    height: 100;
-}
 
 .market-item{
     /* position: absolute; */
@@ -595,5 +598,32 @@ em{
     top: 0px;
     width: 100%;
     margin-top:30px;
+    position: relative;
+    height: 100%;
+    /* justify-content: center; */
 }
 
+@media (max-width:992px) {
+
+    .card-collection{
+        margin-bottom: 30px;
+    }
+}
+
+/* FOOTER */
+
+.footer{
+    background: linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%);
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.footer p{
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer p a{
+    color:#fff ;
+
+}
